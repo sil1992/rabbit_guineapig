@@ -126,8 +126,8 @@ body {
 /* 탑 로고 */
 .top-section {
   margin-top: 35px;
-  margin-bottom: 35px;
-  line-height: 32px;
+  line-height: 35px;
+
 }
 
 .top-section>.con>.top-logo {
@@ -140,18 +140,11 @@ body {
 }
 
 /* input */
-input {
-  border: 3px solid #60A9A6;
-  border-radius: 20px;
-  width: 400px;
-  padding: 10px 10px 10px 30px;
-}
-
 .input-box {
-  margin: 0 200px;
+  margin: 0 320px;
 }
 
-.input-box__placeholder {
+/* .input-box__placeholder {
   position: relative;
 }
 
@@ -170,7 +163,7 @@ input {
 }
 
 /* button */
-.top-section .input-box #searchSubmit {
+/* .top-section .input-box #searchSubmit {
   position: absolute;
   top: 9px;
   right: 25px;
@@ -191,13 +184,13 @@ input[type=submit] {
   padding: 0;
   box-shadow: none;
   cursor: pointer;
-}
+} */ */
 
 /* top-section-2 */
 .top-section-2 {
 }
 
-.Recent_Search {
+/* .Recent_Search {
   margin-top: 8px;
   margin-left: 60px;
 }
@@ -209,11 +202,11 @@ input[type=submit] {
 
 .Q_and_A {
   margin-top: 4px;
-}
+} */
 
-.top-section>.con>.top-section-2 {
+/* .top-section>.con>.top-section-2 {
   text-align: right;
-}
+} */
 
 /* top-menu-2 */
 .top-menu-2 {
@@ -248,6 +241,10 @@ input[type=submit] {
   top: 150%;
   left: 40%;
   width: 100%;
+}
+
+.menu-2>li:hover>a {
+  opacity: 55%;
 }
 
 /* 호버된 서브메뉴-1 */
